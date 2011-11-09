@@ -1,0 +1,474 @@
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:48:39) [GET]
+  Session ID: 7a970770cb65d98737d9c2b54eeecdbb
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:48:39) [GET]
+  Session ID: 7a970770cb65d98737d9c2b54eeecdbb
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+
+
+MissingSourceFile (no such file to load -- sqlite3):
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `gem_original_require'
+    /Users/ram/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:55:in `require'
+    ./script/server:3
+
+Rendering /Users/ram/.rvm/gems/ruby-1.8.7-p352@outofhomemediaplanner/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:51:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00230 (434 reqs/sec) | Rendering: 0.00099 (42%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:54:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00185 (540 reqs/sec) | Rendering: 0.00081 (43%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:54:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00190 (526 reqs/sec) | Rendering: 0.00085 (44%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:55:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00191 (524 reqs/sec) | Rendering: 0.00090 (47%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:56:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00176 (569 reqs/sec) | Rendering: 0.00080 (45%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:56:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00193 (518 reqs/sec) | Rendering: 0.00089 (46%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:56:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00241 (415 reqs/sec) | Rendering: 0.00101 (41%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:56:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00182 (549 reqs/sec) | Rendering: 0.00085 (46%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:57:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00186 (538 reqs/sec) | Rendering: 0.00082 (44%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:57:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00270 (370 reqs/sec) | Rendering: 0.00115 (42%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:57:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00190 (527 reqs/sec) | Rendering: 0.00084 (44%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:57:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00174 (574 reqs/sec) | Rendering: 0.00077 (44%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:58:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00179 (558 reqs/sec) | Rendering: 0.00078 (43%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:59:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00192 (519 reqs/sec) | Rendering: 0.00092 (47%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:59:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00183 (546 reqs/sec) | Rendering: 0.00087 (47%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 12:59:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00179 (560 reqs/sec) | Rendering: 0.00078 (43%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00183 (545 reqs/sec) | Rendering: 0.00085 (46%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.04641 (21 reqs/sec) | Rendering: 0.00063 (1%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00144 (693 reqs/sec) | Rendering: 0.00044 (30%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00167 (598 reqs/sec) | Rendering: 0.00053 (31%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00195 (513 reqs/sec) | Rendering: 0.00092 (47%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00156 (639 reqs/sec) | Rendering: 0.00049 (31%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00163 (611 reqs/sec) | Rendering: 0.00054 (32%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 0.00190 (527 reqs/sec) | Rendering: 0.00083 (43%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:00:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+Rendering welcome/index
+Completed in 0.00171 (585 reqs/sec) | Rendering: 0.00047 (27%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:01:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering welcome/index
+Completed in 46.71072 (0 reqs/sec) | Rendering: 0.00208 (0%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:02:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Redirected to http://testing.outofhomemediaplanner.net/
+Completed in 0.00215 (465 reqs/sec) | 302 Found [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:02:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://testing.outofhomemediaplanner.net/proposals/289
+Completed in 0.00186 (538 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:08:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Redirected to http://testing.outofhomemediaplanner.net/
+Completed in 0.00161 (622 reqs/sec) | 302 Found [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00129 (776 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00201 (498 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00108 (930 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00128 (783 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00122 (817 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00124 (809 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00120 (834 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00120 (830 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00106 (945 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00112 (892 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00177 (566 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00113 (884 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00118 (843 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00195 (513 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00109 (917 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00174 (575 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00226 (442 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00121 (823 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00118 (849 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00111 (903 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://localhost:3000/proposals/289
+Completed in 0.00154 (647 reqs/sec) | 302 Found [http://localhost/proposals/289]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2011-11-09 13:13:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--ff17a564c6163a98f5cacb31993106eec4750e71
+  Parameters: {"action"=>"index", "path"=>["proposals", "289"], "controller"=>"welcome"}
+Redirected to http://testing.outofhomemediaplanner.net/proposals/289
+Completed in 0.00128 (784 reqs/sec) | 302 Found [http://localhost/proposals/289]
